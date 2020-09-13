@@ -23,7 +23,8 @@
 
 .submit:hover {
   color: rgba(241, 242, 242, 1.00);
-  background-color: rgba(7, 29, 95, 1.00);
+  background: rgba(7, 29, 95, 1.00);
+  transition: background .3s ease;
   cursor: pointer;
 }
 
@@ -37,4 +38,12 @@
 
 .contact-form-center {
   align-items: center;
+}
+
+.success-hidden {
+  opacity: 0;
+}
+
+.success {
+  opacity: 100;
 }

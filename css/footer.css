@@ -1,3 +1,10 @@
-footer {
+.footer {
   background-color: rgba(241, 242, 242, 1.00);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links > a {
+  margin: 10px 25px;
 }
