@@ -5,7 +5,7 @@ templateParams = {
   phone: fields.phone.value,
   service: fields.service.value
 }
-
+userID = "tpdoyle87@gmail.com"
 function sendEmail() {
-  emailjs.send(serviceID, templateID, templateParams)
+  emailjs.send(serviceID, templateID, templateParams,userID)
 }
