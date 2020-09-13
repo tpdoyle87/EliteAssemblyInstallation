@@ -1,0 +1,12 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 30%;
+    height: 35px;
+    margin: 5px 0;
+}
