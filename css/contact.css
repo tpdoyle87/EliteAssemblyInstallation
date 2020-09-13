@@ -7,10 +7,14 @@
     margin-bottom: 50px;
 }
 
-.contact-form > * {
+.contact-form > input, select {
     width: 50%;
     height: 35px;
     margin: 5px 0;
+}
+
+.contact-form > p {
+  text-align: left;
 }
 
 .submit {
@@ -38,6 +42,10 @@
 
 .contact-form-center {
   align-items: center;
+}
+
+.contact-form-left {
+  align-items: left;
 }
 
 .success-hidden {
