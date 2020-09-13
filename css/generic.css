@@ -57,5 +57,21 @@ a:visited {
 
 .text-center {
     text-align: center;
-    margin: 2px; 
+    margin: 2px;
+}
+
+.failed {
+  border: 1px solid red;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.hidden-error {
+  margin-bottom: 0;
 }

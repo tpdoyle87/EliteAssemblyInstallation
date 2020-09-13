@@ -5,8 +5,18 @@
     align-items: center;
 }
 
-input {
+.contact-form > input {
     width: 30%;
     height: 35px;
     margin: 5px 0;
+}
+
+.contact-form > select {
+    width: 30%;
+    height: 35px;
+    margin: 5px 0;
+}
+
+.contact {
+  margin-bottom: 15px;
 }

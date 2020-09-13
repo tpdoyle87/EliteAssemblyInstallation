@@ -1,5 +1,7 @@
 @import './fonts.css';
+@import './slideshow.css';
 @import './generic.css';
 @import './projects.css';
 @import './service.css';
 @import './contact.css';
+@import './about.css'
