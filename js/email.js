@@ -7,5 +7,7 @@ templateParams = {
 }
 userID = "tpdoyle87@gmail.com"
 function sendEmail() {
-  emailjs.send(serviceID, templateID, templateParams,userID)
+  if (validateForm()) {
+    emailjs.send(serviceID, templateID, templateParams,userID)
+  }
 }
