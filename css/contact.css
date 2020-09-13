@@ -7,7 +7,7 @@
     margin-bottom: 50px;
 }
 
-.contact-form > input, select {
+.contact-form > input, select, button {
     width: 50%;
     height: 35px;
     margin: 5px 0;
