@@ -15,6 +15,15 @@ h2 {
     margin: 0 20px;
 }
 
+@media only screen and (max-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    margin: 0 20px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .grid {
     display: grid;

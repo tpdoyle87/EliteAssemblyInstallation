@@ -153,6 +153,25 @@ a:visited {
   color: rgba(7, 29, 95, 1.00);
 }
 
+@media only screen and (max-width: 580px) {
+  .nav {
+    display: flex;
+    align-items: center;
+    box-shadow: inset 3px 3px 10px rgba(30, 30, 30, .1);
+    background-color: #f1f2f2;
+    flex-direction: column;
+  }
+  .nav-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+  }
+  .container {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .nav {
     display: flex;
