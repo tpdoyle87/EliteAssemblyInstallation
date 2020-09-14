@@ -15,21 +15,40 @@
 }
 
 .card-product h2 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
-  margin: 0;
+  margin: 10px 20px;
 }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 16px;
   line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
+  margin: 20px 25px 10 25;
+}
+
+.card-product-link {
+  color: rgba(7, 29, 95, 1.00);
+  border-radius: 5px;
+  border: 2px solid rgba(7, 29, 95, 1.00);;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px 20px;
+  padding: 5px 10px;
+}
+
+.card-product-link:hover {
+  color: rgba(241, 242, 242, 1.00);
+  background: rgba(7, 29, 95, 1.00);
+  transition: background .3s ease;
+  cursor: pointer;
 }
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+
+.contact-card {
+  margin: 35px 5px;
 }
 
 .project {
