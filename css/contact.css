@@ -55,3 +55,26 @@
 .success {
   opacity: 100;
 }
+
+@media only screen and (max-width: 480px) {
+  .flex-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .half {
+    width: 100%;
+  }
+
+  .contact-form {
+    margin-left: 0px;
+  }
+
+  .contact-form > input, select, button {
+    width: 100%;
+  }
+
+  .contact-header {
+    text-align: center;
+  }
+}
