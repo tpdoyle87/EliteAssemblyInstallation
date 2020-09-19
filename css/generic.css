@@ -126,6 +126,22 @@ a:visited {
   font-size: 100px;
 }
 
+.medium {
+  font-size: 45px;
+}
+
+.cen-spin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spin {
+  animation: rotation 2s infinite linear;
+}
+.fa-spinner {
+  color: rgba(7, 29, 95, 1.00);
+}
 .line-break {
   width: 90%;
   border-bottom: 1px solid rgba(7, 29, 95, 1.00);
@@ -189,5 +205,14 @@ a:visited {
 
   .container {
     width: 100%;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
   }
 }
