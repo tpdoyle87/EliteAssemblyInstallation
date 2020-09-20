@@ -169,6 +169,24 @@ a:visited {
   color: rgba(7, 29, 95, 1.00);
 }
 
+.instagram {
+  color: #833AB4;
+  font-size: 30px;
+}
+
+.instagram:hover {
+  color: rgb(225,48,108);
+}
+
+.facebook {
+  color: 	#8b9dc3;
+  font-size: 30px;
+}
+
+.facebook:hover {
+  color: #3b5998;
+}
+
 @media only screen and (max-width: 580px) {
   .nav {
     display: flex;
